@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+body {
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #ececec;
+    background-color: #ffffff;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.headerInside {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    line-height: 50px;
+    height: 50px;
+    width: 105px;
+    background: url(img/Group_2.png) no-repeat;
+    background-size: contain;
+    padding-left: 75px;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    font-size: 27px;
+}
+
+.logo span {
+    font-weight: 400;
+    color: #f16d7f;
+}
+
+.searchWrap {
+    width: 400px;
+    display: flex;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+    margin-left: 37px;
+}
+
+.searchBrowse {
+    padding: 12px;
+    border-right: 1px solid #e6e6e6;
+    background-color: #cdcdcc;
+}
+
+.searchWrap input {
+    border: none;
+    flex-grow: 1;
+    padding: 0 7px;
+}
+
+.searchWrap button {
+    width: 36px;
+    border: none;
+    border-left: 1px solid #e6e6e6;
+    background: white;
+}
+
+.accountBtn {
+    background-color: #f16d7f;
+    padding: 13px 19px;
+    border: none;
+}
+
+.headerCart {
+    margin-left: auto;
+    margin-right: 26px;
+}
+
+.topNav {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 150px;
+    box-sizing: border-box;
+}
+
+.topNav a {
+    text-decoration: none;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    color: #222222;
+    line-height: 26px;
+    font-weight: 700;
+    padding: 30px;
+}
+
+a {
+    display: inline-block;
+    color: #ffeb3b;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:after {
+    background-color: #ef5b70;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}
+
+.NewArrivals {
+    width: inherit;
+    height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.NewArrivals h2 {
+    color: #f16d7f;
+    font-family: "Lato - Black";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 130px;
+    margin-left: 120px;
+}
+
+.NewArrivals h3 {
+    line-height: 130px;
+    margin-right: 100px;
+    color: #636363;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.NewArrivals span {
+    color: #f16d7f;
+    font-family: Lato, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.shoppingCart {
+    width: inherit;
+    height: 623px;
+    margin-top: 7%;
+}
+
+.ProductDetails {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+}
+
+.ProductDetails h4 {
+    margin-left: 80px;
+}
+
+.Product {
+    margin-left: 40px;
+}
+
+.Details {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ProductDetails h4 {
+    color: #222222;
+    font-family: Lato,sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 20px;
+}
+.ProductMen{
+    width: inherit;
+    height: 500px;
+    border: 1px solid #eaeaea;
+    display: flex;
+    justify-content: space-between;
+}
+.MenClothing{
+    margin-top: 20px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.MenClothing img{
+    width:100px;
+    height:115px;
+   background-color:rgba(101, 169, 200, 0.09); 
+}
+.Mango{
+    float: right;
+    margin-top:-15px;
+}
+.Mango h5{
+    color: #222222;
+font-family: Lato,sans-serif;
+font-size: 13px;
+font-weight: 500;
+}
+.Mango h6{
+    font-weight: 400;
+        color: #6f6e6e;
+font-family: Lato,sans-serif;
+font-size: 13px;
+    
+}
+.Mango span{
+     color: #6f6e6e;
+font-family: Lato,sans-serif;
+font-size: 13px;
+font-weight: 300;
+line-height: 20px;  
+}
+.Nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+margin-left: 172px;
+}
+.Nav h4{
+    margin-left: 123px;
+    color: #656565;
+font-family: Lato, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+}
